@@ -1,0 +1,577 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2025.1.29)  14 APR 2025 01:33
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"d:/3er Año/2do Semestre/Sim/Sim_Eventos_Discretos/report/report.tex"
+(d:/3er Año/2do Semestre/Sim/Sim_Eventos_Discretos/report/report.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-07-04> (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/06/26 3.77 The Babel package
+\babel@savecnt=\count193
+\U@D=\dimen139
+\l@unhyphenated=\language79
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count194
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks16
+\es@quotdepth=\count195
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen140
+\Gin@req@width=\dimen141
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen142
+\lightrulewidth=\dimen143
+\cmidrulewidth=\dimen144
+\belowrulesep=\dimen145
+\belowbottomsep=\dimen146
+\aboverulesep=\dimen147
+\abovetopsep=\dimen148
+\cmidrulesep=\dimen149
+\cmidrulekern=\dimen150
+\defaultaddspace=\dimen151
+\@cmidla=\count196
+\@cmidlb=\count197
+\@aboverulesep=\dimen152
+\@belowrulesep=\dimen153
+\@thisruleclass=\count198
+\@lastruleclass=\count199
+\@thisrulewidth=\dimen154
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+
+C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty:36: Package siunitx Error: LaTeX kernel too old.
+
+See the siunitx package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36   }
+        
+You need a newer LaTeX to use this release of siunitx.
+Loading~siunitx~will~abort!
+
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count266
+\float@exts=\toks18
+\float@box=\box51
+\@float@everytoks=\toks19
+\@floatcapt=\box52
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen155
+)) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen156
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count267
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count268
+\leftroot@=\count269
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count270
+\DOTSCASE@=\count271
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen157
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count272
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count273
+\dotsspace@=\muskip16
+\c@parentequation=\count274
+\dspbrk@lvl=\count275
+\tag@help=\toks21
+\row@=\count276
+\column@=\count277
+\maxfields@=\count278
+\andhelp@=\toks22
+\eqnshift@=\dimen158
+\alignsep@=\dimen159
+\tagshift@=\dimen160
+\tagwidth@=\dimen161
+\totwidth@=\dimen162
+\lineht@=\dimen163
+\@envbody=\toks23
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count279
+\l__pdf_internal_box=\box55
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Info: Redefining \. on input line 12.
+LaTeX Info: Redefining \% on input line 12.
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count280
+\scratchdimen=\dimen164
+\scratchbox=\box56
+\nofMPsegments=\count281
+\nofMParguments=\count282
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count283
+\MPscratchDim=\dimen165
+\MPnumerator=\count284
+\makeMPintoPDFobject=\count285
+\everyMPtoPDFconversion=\toks26
+) (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+ (C:\Users\Yesi0711\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/Yesi0711/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Overfull \hbox (0.30937pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/10 Frecuencia de ata-ques: equi-pos can-sa-dos rea-li-zan me-nos in-ten-tos ofen-
+ []
+
+[2] [3] [4]
+Overfull \hbox (23.6484pt too wide) in paragraph at lines 183--184
+[]\OT1/cmr/m/n/10 Tiempos en-tre even-tos: Dis-tri-bu-ci^^Son ex-po-nen-cial con par^^Same-tro $\OML/cmm/m/it/10 ^^U[] \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (0.65703pt too wide) in paragraph at lines 189--190
+[]\OT1/cmr/bx/n/10 Decaimiento de es-ta-mi-na\OT1/cmr/m/n/10 : Mo-de-lo li-neal $\OML/cmm/m/it/10 s\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 + ^^A\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) = [](40\OML/cmm/m/it/10 ; s\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 t\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (35.71182pt too wide) in paragraph at lines 196--197
+[]\OT1/cmr/m/n/10 Validaci^^Son en tiem-po de ini-cia-li-za-ci^^Son me-dian-te m^^Seto-do va-li-da-te[]parameters() 
+ []
+
+[5]
+Overfull \hbox (18.05063pt too wide) in paragraph at lines 230--231
+[]\OT1/cmr/m/n/10 C^^Salcu-lo pro-ba-bil^^S^^Psti-co de gol con Mathe-ma-ti-cal-Mo-del.shot[]outcome() 
+ []
+
+[6]
+Overfull \hbox (0.58185pt too wide) in paragraph at lines 283--284
+[]\OT1/cmr/bx/n/10 Salto Tem-po-ral\OT1/cmr/m/n/10 : Cal-cu-la-do co-mo $^^A\OML/cmm/m/it/10 t \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@[]$ \OT1/cmr/m/n/10 don-de $\OML/cmm/m/it/10 U \OMS/cmsy/m/n/10 ^^X []\OT1/cmr/m/n/10 (0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 1)$ 
+ []
+
+[7]
+<imgs/descriptive_stats_20250413_225222.png, id=40, 686.565pt x 357.0138pt>
+File: imgs/descriptive_stats_20250413_225222.png Graphic file (type png)
+<use imgs/descriptive_stats_20250413_225222.png>
+Package pdftex.def Info: imgs/descriptive_stats_20250413_225222.png  used on input line 323.
+(pdftex.def)             Requested size: 341.5519pt x 177.60214pt.
+ [8]
+<imgs/percentiles_20250413_225222.png, id=45, 686.565pt x 356.532pt>
+File: imgs/percentiles_20250413_225222.png Graphic file (type png)
+<use imgs/percentiles_20250413_225222.png>
+Package pdftex.def Info: imgs/percentiles_20250413_225222.png  used on input line 329.
+(pdftex.def)             Requested size: 341.5519pt x 177.36247pt.
+ [9 <./imgs/descriptive_stats_20250413_225222.png> <./imgs/percentiles_20250413_225222.png>] [10]
+Overfull \hbox (4.21933pt too wide) in paragraph at lines 364--365
+[]\OT1/cmr/bx/n/10 Tiros: \OT1/cmr/m/n/10 La prue-ba de Mann-Whitney U mostr^^So un es-tad^^S^^Psti-co de 97404783.0,
+ []
+
+
+Overfull \hbox (9.33032pt too wide) in paragraph at lines 365--366
+[]\OT1/cmr/bx/n/10 Faltas: \OT1/cmr/m/n/10 La prue-ba de Mann-Whitney U re-sult^^So en un es-tad^^S^^Psti-co de 203323.0,
+ []
+
+[11]
+<imgs/goal_distribution_home_20250413_225224.png, id=58, 722.7pt x 433.62pt>
+File: imgs/goal_distribution_home_20250413_225224.png Graphic file (type png)
+<use imgs/goal_distribution_home_20250413_225224.png>
+Package pdftex.def Info: imgs/goal_distribution_home_20250413_225224.png  used on input line 406.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [12]
+<imgs/goal_distribution_away_20250413_225225.png, id=62, 722.7pt x 433.62pt>
+File: imgs/goal_distribution_away_20250413_225225.png Graphic file (type png)
+<use imgs/goal_distribution_away_20250413_225225.png>
+Package pdftex.def Info: imgs/goal_distribution_away_20250413_225225.png  used on input line 412.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [13 <./imgs/goal_distribution_home_20250413_225224.png> <./imgs/goal_distribution_away_20250413_225225.png>] [14]
+<imgs/regression_features_20250413_225226.png, id=72, 434.5836pt x 326.6604pt>
+File: imgs/regression_features_20250413_225226.png Graphic file (type png)
+<use imgs/regression_features_20250413_225226.png>
+Package pdftex.def Info: imgs/regression_features_20250413_225226.png  used on input line 457.
+(pdftex.def)             Requested size: 341.5519pt x 256.74298pt.
+ [15 <./imgs/regression_features_20250413_225226.png>]
+<imgs/survival_analysis_20250413_225225.png, id=78, 612.8496pt x 397.0032pt>
+File: imgs/survival_analysis_20250413_225225.png Graphic file (type png)
+<use imgs/survival_analysis_20250413_225225.png>
+Package pdftex.def Info: imgs/survival_analysis_20250413_225225.png  used on input line 481.
+(pdftex.def)             Requested size: 341.5519pt x 221.2541pt.
+ [16] [17 <./imgs/survival_analysis_20250413_225225.png>]
+<imgs/posesion_efectiva_20250413_225227.png, id=86, 722.7pt x 433.62pt>
+File: imgs/posesion_efectiva_20250413_225227.png Graphic file (type png)
+<use imgs/posesion_efectiva_20250413_225227.png>
+Package pdftex.def Info: imgs/posesion_efectiva_20250413_225227.png  used on input line 506.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [18 <./imgs/posesion_efectiva_20250413_225227.png>]
+<imgs/home_bias_analysis_20250413_225326.png, id=91, 722.7pt x 433.62pt>
+File: imgs/home_bias_analysis_20250413_225326.png Graphic file (type png)
+<use imgs/home_bias_analysis_20250413_225326.png>
+Package pdftex.def Info: imgs/home_bias_analysis_20250413_225326.png  used on input line 528.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/away_bias_analysis_20250413_225326.png, id=92, 722.7pt x 433.62pt>
+File: imgs/away_bias_analysis_20250413_225326.png Graphic file (type png)
+<use imgs/away_bias_analysis_20250413_225326.png>
+Package pdftex.def Info: imgs/away_bias_analysis_20250413_225326.png  used on input line 534.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [19 <./imgs/home_bias_analysis_20250413_225326.png>] [20 <./imgs/away_bias_analysis_20250413_225326.png>]
+<imgs/home_distribution_comparison_20250413_225326.png, id=102, 867.24pt x 433.62pt>
+File: imgs/home_distribution_comparison_20250413_225326.png Graphic file (type png)
+<use imgs/home_distribution_comparison_20250413_225326.png>
+Package pdftex.def Info: imgs/home_distribution_comparison_20250413_225326.png  used on input line 576.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+ [21]
+<imgs/away_distribution_comparison_20250413_225326.png, id=106, 867.24pt x 433.62pt>
+File: imgs/away_distribution_comparison_20250413_225326.png Graphic file (type png)
+<use imgs/away_distribution_comparison_20250413_225326.png>
+Package pdftex.def Info: imgs/away_distribution_comparison_20250413_225326.png  used on input line 582.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+ [22 <./imgs/home_distribution_comparison_20250413_225326.png> <./imgs/away_distribution_comparison_20250413_225326.png>]
+<imgs/home_possession_decay_20250413_225328.png, id=112, 867.24pt x 433.62pt>
+File: imgs/home_possession_decay_20250413_225328.png Graphic file (type png)
+<use imgs/home_possession_decay_20250413_225328.png>
+Package pdftex.def Info: imgs/home_possession_decay_20250413_225328.png  used on input line 604.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+<imgs/away_possession_decay_20250413_225328.png, id=113, 867.24pt x 433.62pt>
+File: imgs/away_possession_decay_20250413_225328.png Graphic file (type png)
+<use imgs/away_possession_decay_20250413_225328.png>
+Package pdftex.def Info: imgs/away_possession_decay_20250413_225328.png  used on input line 610.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+ [23 <./imgs/home_possession_decay_20250413_225328.png>]
+Overfull \hbox (5.27966pt too wide) in paragraph at lines 619--620
+\OT1/cmr/m/n/10 trap si-guen una dis-tri-bu-ci^^Son nor-mal, uti-li-zan-do la prue-ba de Kolmogorov-Smirnov
+ []
+
+[24 <./imgs/away_possession_decay_20250413_225328.png>]
+<imgs/home_metric_correlation_20250413_225340.png, id=122, 722.7pt x 433.62pt>
+File: imgs/home_metric_correlation_20250413_225340.png Graphic file (type png)
+<use imgs/home_metric_correlation_20250413_225340.png>
+Package pdftex.def Info: imgs/home_metric_correlation_20250413_225340.png  used on input line 644.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/away_metric_correlation_20250413_225340.png, id=123, 722.7pt x 433.62pt>
+File: imgs/away_metric_correlation_20250413_225340.png Graphic file (type png)
+<use imgs/away_metric_correlation_20250413_225340.png>
+Package pdftex.def Info: imgs/away_metric_correlation_20250413_225340.png  used on input line 650.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [25 <./imgs/home_metric_correlation_20250413_225340.png>]
+<imgs/home_goals_qqplot_20250413_225340.png, id=129, 722.7pt x 433.62pt>
+File: imgs/home_goals_qqplot_20250413_225340.png Graphic file (type png)
+<use imgs/home_goals_qqplot_20250413_225340.png>
+Package pdftex.def Info: imgs/home_goals_qqplot_20250413_225340.png  used on input line 670.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [26 <./imgs/away_metric_correlation_20250413_225340.png>]
+<imgs/away_goals_qqplot_20250413_225340.png, id=134, 722.7pt x 433.62pt>
+File: imgs/away_goals_qqplot_20250413_225340.png Graphic file (type png)
+<use imgs/away_goals_qqplot_20250413_225340.png>
+Package pdftex.def Info: imgs/away_goals_qqplot_20250413_225340.png  used on input line 676.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [27 <./imgs/home_goals_qqplot_20250413_225340.png> <./imgs/away_goals_qqplot_20250413_225340.png>]
+<imgs/home_trend_analysis_20250413_225343.png, id=140, 867.24pt x 433.62pt>
+File: imgs/home_trend_analysis_20250413_225343.png Graphic file (type png)
+<use imgs/home_trend_analysis_20250413_225343.png>
+Package pdftex.def Info: imgs/home_trend_analysis_20250413_225343.png  used on input line 697.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+<imgs/away_trend_analysis_20250413_225343.png, id=141, 867.24pt x 433.62pt>
+File: imgs/away_trend_analysis_20250413_225343.png Graphic file (type png)
+<use imgs/away_trend_analysis_20250413_225343.png>
+Package pdftex.def Info: imgs/away_trend_analysis_20250413_225343.png  used on input line 703.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+ [28 <./imgs/home_trend_analysis_20250413_225343.png>]
+<imgs/home_goals_ci_mean_20250413_225344.png, id=146, 722.7pt x 433.62pt>
+File: imgs/home_goals_ci_mean_20250413_225344.png Graphic file (type png)
+<use imgs/home_goals_ci_mean_20250413_225344.png>
+Package pdftex.def Info: imgs/home_goals_ci_mean_20250413_225344.png  used on input line 724.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [29 <./imgs/away_trend_analysis_20250413_225343.png>]
+<imgs/home_goals_hypothesis_mean_20250413_225346.png, id=151, 722.7pt x 433.62pt>
+File: imgs/home_goals_hypothesis_mean_20250413_225346.png Graphic file (type png)
+<use imgs/home_goals_hypothesis_mean_20250413_225346.png>
+Package pdftex.def Info: imgs/home_goals_hypothesis_mean_20250413_225346.png  used on input line 730.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [30 <./imgs/home_goals_ci_mean_20250413_225344.png> <./imgs/home_goals_hypothesis_mean_20250413_225346.png>]
+<imgs/home_shots_ci_median_20250413_225347.png, id=157, 722.7pt x 433.62pt>
+File: imgs/home_shots_ci_median_20250413_225347.png Graphic file (type png)
+<use imgs/home_shots_ci_median_20250413_225347.png>
+Package pdftex.def Info: imgs/home_shots_ci_median_20250413_225347.png  used on input line 751.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/home_shots_hypothesis_median_20250413_225350.png, id=158, 722.7pt x 433.62pt>
+File: imgs/home_shots_hypothesis_median_20250413_225350.png Graphic file (type png)
+<use imgs/home_shots_hypothesis_median_20250413_225350.png>
+Package pdftex.def Info: imgs/home_shots_hypothesis_median_20250413_225350.png  used on input line 757.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [31 <./imgs/home_shots_ci_median_20250413_225347.png>]
+<imgs/home_goals_ci_mean_20250413_225351.png, id=164, 722.7pt x 433.62pt>
+File: imgs/home_goals_ci_mean_20250413_225351.png Graphic file (type png)
+<use imgs/home_goals_ci_mean_20250413_225351.png>
+Package pdftex.def Info: imgs/home_goals_ci_mean_20250413_225351.png  used on input line 778.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [32 <./imgs/home_shots_hypothesis_median_20250413_225350.png>]
+<imgs/home_goals_hypothesis_mean_20250413_225354.png, id=169, 722.7pt x 433.62pt>
+File: imgs/home_goals_hypothesis_mean_20250413_225354.png Graphic file (type png)
+<use imgs/home_goals_hypothesis_mean_20250413_225354.png>
+Package pdftex.def Info: imgs/home_goals_hypothesis_mean_20250413_225354.png  used on input line 784.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [33 <./imgs/home_goals_ci_mean_20250413_225351.png> <./imgs/home_goals_hypothesis_mean_20250413_225354.png>]
+<imgs/home_goals_ci_median_20250413_225355.png, id=175, 722.7pt x 433.62pt>
+File: imgs/home_goals_ci_median_20250413_225355.png Graphic file (type png)
+<use imgs/home_goals_ci_median_20250413_225355.png>
+Package pdftex.def Info: imgs/home_goals_ci_median_20250413_225355.png  used on input line 805.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/home_goals_hypothesis_median_20250413_225357.png, id=176, 722.7pt x 433.62pt>
+File: imgs/home_goals_hypothesis_median_20250413_225357.png Graphic file (type png)
+<use imgs/home_goals_hypothesis_median_20250413_225357.png>
+Package pdftex.def Info: imgs/home_goals_hypothesis_median_20250413_225357.png  used on input line 811.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [34 <./imgs/home_goals_ci_median_20250413_225355.png>]
+<imgs/home_shots_ci_std_20250413_225358.png, id=181, 722.7pt x 433.62pt>
+File: imgs/home_shots_ci_std_20250413_225358.png Graphic file (type png)
+<use imgs/home_shots_ci_std_20250413_225358.png>
+Package pdftex.def Info: imgs/home_shots_ci_std_20250413_225358.png  used on input line 832.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [35 <./imgs/home_goals_hypothesis_median_20250413_225357.png>]
+<imgs/home_shots_hypothesis_std_20250413_225401.png, id=186, 722.7pt x 433.62pt>
+File: imgs/home_shots_hypothesis_std_20250413_225401.png Graphic file (type png)
+<use imgs/home_shots_hypothesis_std_20250413_225401.png>
+Package pdftex.def Info: imgs/home_shots_hypothesis_std_20250413_225401.png  used on input line 838.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [36 <./imgs/home_shots_ci_std_20250413_225358.png> <./imgs/home_shots_hypothesis_std_20250413_225401.png>]
+<imgs/home_shots_ci_median_20250413_225402.png, id=192, 722.7pt x 433.62pt>
+File: imgs/home_shots_ci_median_20250413_225402.png Graphic file (type png)
+<use imgs/home_shots_ci_median_20250413_225402.png>
+Package pdftex.def Info: imgs/home_shots_ci_median_20250413_225402.png  used on input line 859.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/home_shots_hypothesis_median_20250413_225405.png, id=193, 722.7pt x 433.62pt>
+File: imgs/home_shots_hypothesis_median_20250413_225405.png Graphic file (type png)
+<use imgs/home_shots_hypothesis_median_20250413_225405.png>
+Package pdftex.def Info: imgs/home_shots_hypothesis_median_20250413_225405.png  used on input line 865.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [37 <./imgs/home_shots_ci_median_20250413_225402.png>]
+<imgs/stats_comparison_20250413_225427.png, id=199, 722.7pt x 433.62pt>
+File: imgs/stats_comparison_20250413_225427.png Graphic file (type png)
+<use imgs/stats_comparison_20250413_225427.png>
+Package pdftex.def Info: imgs/stats_comparison_20250413_225427.png  used on input line 889.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [38 <./imgs/home_shots_hypothesis_median_20250413_225405.png>]
+<imgs/home_comparison_20250413_225427.png, id=205, 2320.3488pt x 155.6214pt>
+File: imgs/home_comparison_20250413_225427.png Graphic file (type png)
+<use imgs/home_comparison_20250413_225427.png>
+Package pdftex.def Info: imgs/home_comparison_20250413_225427.png  used on input line 895.
+(pdftex.def)             Requested size: 341.5519pt x 22.90527pt.
+ [39 <./imgs/stats_comparison_20250413_225427.png> <./imgs/home_comparison_20250413_225427.png>]
+<imgs/time_metrics_20250413_225438_home.png, id=211, 867.24pt x 433.62pt>
+File: imgs/time_metrics_20250413_225438_home.png Graphic file (type png)
+<use imgs/time_metrics_20250413_225438_home.png>
+Package pdftex.def Info: imgs/time_metrics_20250413_225438_home.png  used on input line 917.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+<imgs/momentum_20250413_225438_home.png, id=212, 722.7pt x 433.62pt>
+File: imgs/momentum_20250413_225438_home.png Graphic file (type png)
+<use imgs/momentum_20250413_225438_home.png>
+Package pdftex.def Info: imgs/momentum_20250413_225438_home.png  used on input line 923.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [40 <./imgs/time_metrics_20250413_225438_home.png>]
+Overfull \hbox (28.0289pt too wide) in paragraph at lines 930--930
+[]\OT1/cmr/bx/n/12 An^^Sali-sis de Sen-si-bi-li-dad pa-ra Par^^Same-tro \OT1/cmr/bx/it/12 de-fen-se[]strength
+ []
+
+<imgs/stats_comparison_20250413_225652.png, id=217, 722.7pt x 433.62pt>
+File: imgs/stats_comparison_20250413_225652.png Graphic file (type png)
+<use imgs/stats_comparison_20250413_225652.png>
+Package pdftex.def Info: imgs/stats_comparison_20250413_225652.png  used on input line 946.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+[41 <./imgs/momentum_20250413_225438_home.png>]
+<imgs/away_comparison_20250413_225652.png, id=222, 2320.3488pt x 155.6214pt>
+File: imgs/away_comparison_20250413_225652.png Graphic file (type png)
+<use imgs/away_comparison_20250413_225652.png>
+Package pdftex.def Info: imgs/away_comparison_20250413_225652.png  used on input line 952.
+(pdftex.def)             Requested size: 341.5519pt x 22.90527pt.
+
+Overfull \hbox (16.9089pt too wide) in paragraph at lines 957--958
+[]\OT1/cmr/m/n/10 Desde una pers-pec-ti-va fut-bol^^S^^Psti-ca, la sen-si-bi-li-dad del par^^Same-tro \OT1/cmr/m/it/10 de-fen-se[]strength
+ []
+
+[42 <./imgs/stats_comparison_20250413_225652.png> <./imgs/away_comparison_20250413_225652.png>]
+<imgs/time_metrics_20250413_225658_away.png, id=228, 867.24pt x 433.62pt>
+File: imgs/time_metrics_20250413_225658_away.png Graphic file (type png)
+<use imgs/time_metrics_20250413_225658_away.png>
+Package pdftex.def Info: imgs/time_metrics_20250413_225658_away.png  used on input line 974.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+<imgs/momentum_20250413_225658_away.png, id=229, 722.7pt x 433.62pt>
+File: imgs/momentum_20250413_225658_away.png Graphic file (type png)
+<use imgs/momentum_20250413_225658_away.png>
+Package pdftex.def Info: imgs/momentum_20250413_225658_away.png  used on input line 980.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [43 <./imgs/time_metrics_20250413_225658_away.png>] [44 <./imgs/momentum_20250413_225658_away.png>]
+<imgs/stats_comparison_20250413_225738.png, id=239, 722.7pt x 433.62pt>
+File: imgs/stats_comparison_20250413_225738.png Graphic file (type png)
+<use imgs/stats_comparison_20250413_225738.png>
+Package pdftex.def Info: imgs/stats_comparison_20250413_225738.png  used on input line 1005.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+<imgs/home_comparison_20250413_225738.png, id=240, 2320.3488pt x 155.6214pt>
+File: imgs/home_comparison_20250413_225738.png Graphic file (type png)
+<use imgs/home_comparison_20250413_225738.png>
+Package pdftex.def Info: imgs/home_comparison_20250413_225738.png  used on input line 1011.
+(pdftex.def)             Requested size: 341.5519pt x 22.90527pt.
+ [45 <./imgs/stats_comparison_20250413_225738.png> <./imgs/home_comparison_20250413_225738.png>]
+<imgs/time_metrics_20250413_225743_home.png, id=246, 867.24pt x 433.62pt>
+File: imgs/time_metrics_20250413_225743_home.png Graphic file (type png)
+<use imgs/time_metrics_20250413_225743_home.png>
+Package pdftex.def Info: imgs/time_metrics_20250413_225743_home.png  used on input line 1033.
+(pdftex.def)             Requested size: 341.5519pt x 170.77847pt.
+<imgs/momentum_20250413_225743_home.png, id=247, 722.7pt x 433.62pt>
+File: imgs/momentum_20250413_225743_home.png Graphic file (type png)
+<use imgs/momentum_20250413_225743_home.png>
+Package pdftex.def Info: imgs/momentum_20250413_225743_home.png  used on input line 1039.
+(pdftex.def)             Requested size: 341.5519pt x 204.93285pt.
+ [46 <./imgs/time_metrics_20250413_225743_home.png>] [47 <./imgs/momentum_20250413_225743_home.png>]
+
+LaTeX Warning: Citation `ross2014simulation' on page 48 undefined on input line 1102.
+
+[48]
+
+LaTeX Warning: Citation `luce2012individual' on page 49 undefined on input line 1108.
+
+
+LaTeX Warning: Citation `chatterjee2014physics' on page 49 undefined on input line 1114.
+
+[49] [50] [51] [52] [53] (report.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 4576 strings out of 478338
+ 81568 string characters out of 2835284
+ 384085 words of memory out of 3000000
+ 22904 multiletter control sequences out of 15000+600000
+ 483581 words of font info for 80 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,10n,62p,886b,363s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ <C:\Users\Yesi0711\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcbx1000.pk> <C:\Users\Yesi0711\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/Yesi0711/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on report.pdf (53 pages, 2101870 bytes).
+PDF statistics:
+ 372 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 216 words of extra memory for PDF output out of 10000 (max. 10000000)
+
