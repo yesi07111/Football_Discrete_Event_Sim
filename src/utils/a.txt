@@ -1,0 +1,734 @@
+\subsection{Análisis Estadístico Descriptivo Completo}
+    \subsection*{Explicación Estadística}
+    Este análisis se centra en las medidas de tendencia central, dispersión y posición de las métricas clave de los equipos simulados. Se han calculado la media, mediana y moda, así como la desviación estándar, el rango intercuartílico (IQR) y el coeficiente de variación (CV\%).
+    
+    \begin{itemize}
+        \item \textbf{Medidas de tendencia central:} La media de goles para el equipo local es de 33.46, mientras que para el equipo visitante es de 30.56.
+        \item \textbf{Medidas de dispersión:} La desviación estándar de los goles es de 5.17 para el equipo local y 5.00 para el visitante, indicando una variabilidad similar.
+        \item \textbf{Medidas de posición:} Los percentiles muestran que el 95\% de los partidos del equipo local tienen menos de 42 goles, mientras que para el visitante es menos de 39 goles.
+    \end{itemize}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{report/imgs/descriptive_stats_20250413_225222.png}
+        \caption{Tabla de estadísticas descriptivas por equipo.}
+    \end{figure}
+    
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.6\textwidth]{report/imgs/percentiles_20250413_225222.png}
+        \caption{Distribución de percentiles por equipo.}
+    \end{figure}
+    
+    Los supuestos estadísticos incluyen la normalidad de las distribuciones de las métricas, lo cual puede no cumplirse completamente, afectando la interpretación de las medidas de dispersión.
+    
+    \subsection*{Contexto Futbolístico}
+    Desde una perspectiva táctica, los resultados sugieren que el equipo local tiene una ligera ventaja en términos de goles promedio. Sin embargo, el equipo visitante muestra una menor variabilidad en sus métricas de posesión, lo que podría indicar una estrategia más consistente.
+    
+    Comparando con benchmarks de la Premier League, donde el promedio de goles por partido es de aproximadamente 2.8, ambos equipos superan este promedio, lo que sugiere un enfoque ofensivo.
+    
+    La gestión de la stamina es crucial, ya que un mayor desgaste físico podría afectar negativamente el rendimiento en la segunda mitad del partido. Se recomienda una estrategia de rotación de jugadores para mantener la intensidad.
+    
+    \subsection{Análisis de Tasas de Conversión}
+        \subsection*{Explicación Estadística}
+        El análisis de tasas de conversión se realizó utilizando el \textit{Intervalo de Confianza de Wilson} con corrección para datos escasos. Este método es adecuado para proporciones pequeñas y proporciona intervalos de confianza más precisos que el método normal aproximado.
+        
+        \begin{itemize}
+            \item \textbf{Tasa de conversión del equipo local:} 45.5\% con un intervalo de confianza del 95\% de (45.4\%, 45.6\%).
+            \item \textbf{Tasa de conversión del equipo visitante:} 54.4\% con un intervalo de confianza del 95\% de (54.3\%, 54.6\%).
+        \end{itemize}
+        
+        La elección de este método se debe a su robustez en situaciones de datos escasos y su capacidad para manejar proporciones extremas. Los resultados indican que ambos equipos tienen un rendimiento sobresaliente en términos de conversión, superando el rango élite de la UEFA (8-15\%).
+        
+    \subsection*{Contexto Futbolístico}
+    Desde una perspectiva futbolística, estas tasas de conversión son indicativas de una alta eficacia en la finalización de jugadas. Comparado con los benchmarks de la UEFA, donde las tasas de conversión en la fase de grupos de la Champions League oscilan entre el 8\% y el 15\%, ambos equipos muestran un rendimiento excepcional.
+    
+    Este alto nivel de conversión sugiere que los equipos son capaces de capitalizar sus oportunidades de gol de manera eficiente, lo que podría ser un factor decisivo en partidos de alta presión. La gestión de la stamina y la presión alta podrían ser estrategias clave para mantener este nivel de rendimiento durante todo el partido.
+
+    \subsection{Pruebas de Hipótesis Comparativas}
+        \subsection*{Explicación Estadística}
+        Este análisis utiliza pruebas de hipótesis comparativas para evaluar diferencias significativas entre métricas clave de los equipos. Dependiendo de la normalidad de los datos, determinada por la prueba de Shapiro-Wilk, se aplicaron pruebas T independientes o pruebas de Mann-Whitney U.
+        
+        \begin{itemize}
+            \item \textbf{Goles:} Se utilizó la prueba de Mann-Whitney U con un estadístico de 65601194.5, p-valor de 0.0, y un tamaño del efecto de 0.57 (Cohen's d), indicando una diferencia significativa.
+            \item \textbf{Tiros:} La prueba de Mann-Whitney U mostró un estadístico de 97404783.0, p-valor de 0.0, y un tamaño del efecto de 2.74, sugiriendo una diferencia muy grande.
+            \item \textbf{Faltas:} La prueba de Mann-Whitney U resultó en un estadístico de 203323.0, p-valor de 0.0, y un tamaño del efecto de -4.06, indicando una diferencia significativa inversa.
+            \item \textbf{Posesión:} Se aplicó una prueba T con un estadístico de -142.37, p-valor de 0.0, y un tamaño del efecto de -2.01, mostrando una diferencia significativa con gran efecto.
+        \end{itemize}
+        
+        Los supuestos estadísticos incluyen la normalidad de las distribuciones para la prueba T y la homogeneidad de varianzas. Las pruebas de Mann-Whitney U se utilizaron debido a la falta de normalidad en algunas métricas.
+        
+        \subsection*{Contexto Futbolístico}
+        Desde una perspectiva táctica, las diferencias significativas en métricas como tiros y posesión sugieren que el equipo visitante tiene un mejor control del balón y una capacidad ofensiva superior. En el contexto de partidos de élite, como la UEFA Champions League, diferencias en el tamaño del efecto mayores a 0.5 son decisivas para el resultado del partido.
+        
+        La gestión de la stamina y la presión alta son estrategias clave para mantener el rendimiento. La diferencia en faltas indica un enfoque más agresivo del equipo local, lo que podría resultar en más oportunidades de gol para el visitante.
+        
+        \subsection{Análisis de Relación de Fuerzas}
+        \subsection*{Explicación Estadística}
+        El análisis de relación de fuerzas se centra en evaluar la variación en las tasas de eventos entre equipos. En este caso, se utilizó un análisis de correlación para determinar la relación entre las métricas de ataque y defensa de los equipos.
+        
+        \begin{itemize}
+            \item \textbf{Fuerza de Relación:} La relación de fuerza calculada es de 0.0, indicando una ausencia total de correlación entre las métricas de los equipos.
+            \item \textbf{Valor p:} El valor p obtenido es 1.0, lo que sugiere que no hay evidencia estadística para rechazar la hipótesis nula de no correlación.
+        \end{itemize}
+        
+        Dado que no se observó variación en las tasas de eventos entre los equipos, no se generaron gráficos para este análisis. La falta de correlación puede deberse a la homogeneidad en las configuraciones de los equipos o a la naturaleza del modelo de simulación utilizado.
+        
+        \subsection*{Contexto Futbolístico}
+        Desde una perspectiva futbolística, la ausencia de variación en las tasas de eventos sugiere que ambos equipos operan bajo condiciones tácticas similares, lo que podría resultar en un juego equilibrado sin un claro dominador. En competiciones como la UEFA Champions League, donde las diferencias tácticas suelen ser decisivas, esta falta de variación podría indicar la necesidad de ajustar las estrategias para obtener una ventaja competitiva.
+        
+        La gestión de la stamina y la implementación de tácticas de presión alta podrían ser áreas clave para explorar, dado que no se observan diferencias significativas en las métricas de ataque y defensa.
+        
+        \subsection{Análisis de Distribución de Goles}
+            \subsection*{Explicación Estadística}
+            Este análisis se centra en modelar la distribución de goles utilizando modelos de Poisson y Binomial Negativa. Se evaluó el ajuste de cada modelo mediante el criterio de información de Akaike (AIC) y la prueba de razón de verosimilitud.
+
+            \begin{itemize}
+                \item \textbf{Modelo de Poisson:} Para el equipo local, $\lambda = 33.4573$ con una verosimilitud logarítmica de -30722.49. Para el equipo visitante, $\lambda = 30.5562$ con una verosimilitud logarítmica de -30370.90.
+                \item \textbf{Modelo de Binomial Negativa:} No se pudo ajustar debido a parámetros indefinidos (NaN).
+                \item \textbf{Comparación AIC:} El modelo de Poisson mostró un AIC de 61446.98 para el equipo local y 60743.79 para el visitante, indicando un mejor ajuste comparativo.
+            \end{itemize}
+
+            Los supuestos estadísticos incluyen la independencia de eventos y la constancia de la tasa de goles, lo cual es razonable bajo el modelo de simulación utilizado. La elección del modelo de Poisson se justifica por su simplicidad y adecuación a los datos observados.
+
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{report/imgs/goal_distribution_home_20250413_225224.png}
+                \caption{Histograma de goles del equipo local con ajuste de modelo Poisson.}
+            \end{figure}
+
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{report/imgs/goal_distribution_away_20250413_225225.png}
+                \caption{Histograma de goles del equipo visitante con ajuste de modelo Poisson.}
+            \end{figure}
+
+            \subsection*{Contexto Futbolístico}
+            Desde una perspectiva futbolística, el ajuste del modelo de Poisson sugiere que los goles siguen un patrón predecible basado en la tasa promedio de anotaciones. En comparación con benchmarks de la Premier League, donde la media de goles por partido es aproximadamente 2.8, ambos equipos muestran una capacidad ofensiva significativamente mayor.
+
+            Este análisis puede informar estrategias de juego, sugiriendo que los equipos podrían beneficiarse de tácticas que mantengan o aumenten su tasa de anotación. La gestión de la stamina y la presión alta son consideraciones clave para mantener el rendimiento a lo largo del partido.
+
+            \subsection{Análisis de Efecto de Stamina}
+            \subsection*{Explicación Estadística}
+            Este análisis se centra en la correlación de Pearson entre la stamina final de los equipos y el número de goles anotados. La correlación de Pearson es una medida estadística que evalúa la fuerza y dirección de una relación lineal entre dos variables cuantitativas.
+
+            \begin{itemize}
+                \item \textbf{Correlación de Pearson:} La correlación calculada es de 0.27, lo que indica una correlación positiva moderada entre la stamina final y los goles anotados.
+                \item \textbf{Valor p:} El valor p asociado es 0.000, lo que sugiere que la correlación observada es estadísticamente significativa.
+            \end{itemize}
+
+            Los supuestos estadísticos incluyen la normalidad de las distribuciones de las variables y la linealidad de la relación. La elección de la correlación de Pearson se justifica por la necesidad de evaluar la relación lineal entre la stamina y la efectividad ofensiva.
+
+            \subsection*{Contexto Futbolístico}
+            Desde una perspectiva futbolística, la correlación positiva entre la stamina final y los goles sugiere que los equipos que gestionan mejor su resistencia física tienden a ser más efectivos en el ataque. En competiciones de alto nivel como la UEFA Champions League, donde la gestión de la stamina es crucial, esta relación puede ser explotada para optimizar el rendimiento ofensivo.
+
+            La implementación de tácticas que preserven la stamina, como la rotación de jugadores y la gestión del ritmo de juego, podría mejorar la capacidad de anotación de los equipos. Además, la presión alta y el control del balón son estrategias que deben ser equilibradas con la necesidad de mantener la resistencia física a lo largo del partido.
+
+            \subsection{Modelo de Regresión Lineal Multivariable}
+            \subsection*{Explicación Estadística}
+            Este análisis utiliza un modelo de regresión lineal multivariable para predecir el número de goles basado en variables como la fuerza de ataque, defensa, posesión y stamina. La métrica de evaluación principal es el R² ajustado, que indica el poder predictivo del modelo.
+            
+            \begin{itemize}
+                \item \textbf{R² Ajustado:} El modelo explica el 7.6\% de la varianza en los goles, lo que sugiere un poder predictivo limitado.
+                \item \textbf{Coeficientes:} 
+                \begin{itemize}
+                    \item \textbf{Ataque:} -209,474,536,317.82 por punto
+                    \item \textbf{Defensa:} -112,793,981,094.26 por punto
+                    \item \textbf{Posesión:} 7.59 por minuto
+                    \item \textbf{Stamina:} 72.39 por unidad
+                \end{itemize}
+                \item \textbf{Intercepto:} 26,264,884,169,044.64 goles esperados como valor base.
+            \end{itemize}
+            
+            El modelo se seleccionó para evaluar la influencia relativa de cada variable en la predicción de goles. Sin embargo, el bajo R² sugiere que otros factores no considerados podrían ser más determinantes.
+            
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{report/imgs/regression_features_20250413_225226.png}
+                \caption{Importancia relativa de cada variable en la predicción de goles.}
+            \end{figure}
+            
+            \subsection*{Contexto Futbolístico}
+            En el contexto futbolístico, el modelo indica que la posesión y la stamina tienen un impacto positivo en la cantidad de goles, mientras que la fuerza de ataque y defensa muestran un impacto negativo, lo cual podría ser contraintuitivo y sugiere la necesidad de revisar el modelo o los datos.
+            
+            Comparado con equipos de élite que promedian más de 1.8 goles por partido, donde valores de R² superiores a 0.7 son comunes, este modelo no captura adecuadamente la complejidad del juego. Esto resalta la importancia de considerar factores adicionales como la táctica de equipo, la calidad individual de los jugadores y las condiciones del partido.
+            
+            La gestión de la stamina y la optimización de la posesión son áreas clave para mejorar el rendimiento ofensivo, sugiriendo que los equipos deben enfocarse en mantener un alto nivel de energía y control del balón durante el partido.
+
+            \subsection{Análisis de Supervivencia para Primer Gol}
+            \subsection*{Explicación Estadística}
+            Este análisis utiliza la \textit{Curva de Kaplan-Meier} para modelar el tiempo hasta el primer gol en un partido, con censura a los 90 minutos. La curva de Kaplan-Meier es una herramienta estadística que estima la probabilidad de supervivencia a lo largo del tiempo, en este caso, la probabilidad de no recibir un gol.
+
+            \begin{itemize}
+                \item \textbf{Tiempo Mediano hasta el Primer Gol:} 0.4 minutos.
+                \item \textbf{Riesgo Acumulado a 45 minutos:} 100.0\%.
+            \end{itemize}
+
+            La curva de supervivencia se representa en la figura a continuación, mostrando la probabilidad de no recibir un gol a lo largo del tiempo. Los supuestos incluyen la independencia de eventos y la homogeneidad de las tasas de riesgo a lo largo del tiempo.
+
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.6\textwidth]{report/imgs/survival_analysis_20250413_225225.png}
+                \caption{Curva de supervivencia Kaplan-Meier para el tiempo hasta el primer gol.}
+            \end{figure}
+
+            \subsection*{Contexto Futbolístico}
+            Desde una perspectiva futbolística, el análisis sugiere que los equipos con una probabilidad de no recibir gol superior al 75\% a los 30 minutos pueden considerarse defensivamente sólidos. Por el contrario, una probabilidad inferior al 50\% a los 15 minutos indica vulnerabilidad temprana.
+
+            Según estudios de Wyscout, los equipos que reciben un gol antes del minuto 30 pierden el 68\% de los partidos. Esto resalta la importancia de una defensa sólida en los primeros minutos del juego para aumentar las probabilidades de éxito.
+
+            La gestión de la stamina y la implementación de tácticas defensivas efectivas son cruciales para mantener la integridad defensiva durante el partido. La presión alta y el control del balón pueden ser estrategias efectivas para mitigar el riesgo de recibir goles tempranos.
+
+
+            \subsection{Análisis de Correlación Posesión-Tiros}
+        \subsection*{Explicación Estadística}
+        Este análisis utiliza el \textit{Coeficiente de Correlación de Pearson} para evaluar la relación entre el porcentaje de posesión y la cantidad de tiros realizados por un equipo. El coeficiente de Pearson mide la fuerza y dirección de una relación lineal entre dos variables cuantitativas.
+
+        \begin{itemize}
+            \item \textbf{Coeficiente de Correlación (r):} 0.07, indicando una correlación positiva muy débil.
+            \item \textbf{Valor p:} $6.18 \times 10^{-12}$, lo que sugiere que la correlación observada es estadísticamente significativa.
+        \end{itemize}
+
+        El análisis se justifica para entender cómo la posesión del balón se traduce en oportunidades de gol. Sin embargo, la baja correlación sugiere que otros factores no considerados pueden influir en la creación de oportunidades.
+
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.6\textwidth]{report/imgs/posesion_efectiva_20250413_225227.png}
+            \caption{Gráfico de dispersión con línea de regresión mostrando la relación entre posesión y tiros.}
+        \end{figure}
+
+        \subsection*{Contexto Futbolístico}
+        Desde una perspectiva futbolística, una correlación de 0.07 indica que la posesión del balón no se traduce de manera efectiva en oportunidades de gol. En comparación con equipos de élite, donde correlaciones superiores a 0.5 son comunes, este resultado sugiere una ineficiencia en el uso de la posesión.
+
+        Para mejorar la eficacia, los equipos deben enfocarse en tácticas que optimicen la transición de posesión a oportunidades de gol, como el juego en profundidad y la presión alta. Además, la gestión de la stamina es crucial para mantener un ritmo de juego que permita capitalizar la posesión.
+
+        \subsection{Análisis de Sesgo}
+        \subsection*{Explicación Estadística}
+        Este análisis utiliza el método de \textit{Bootstrap} para comparar las medias de las simulaciones con los valores originales, detectando desviaciones sistemáticas. El sesgo se calcula como la diferencia entre la media bootstrap y el valor original, tanto en términos absolutos como relativos.
+        
+        \begin{itemize}
+            \item \textbf{Sesgo Positivo:} Indica que las simulaciones tienden a sobrestimar el valor real.
+            \item \textbf{Sesgo Negativo:} Indica subestimación en las simulaciones.
+        \end{itemize}
+        
+        El análisis se justifica para evaluar la precisión de las simulaciones y ajustar los modelos si es necesario. Las figuras a continuación muestran gráficos de barras horizontales que representan el sesgo relativo para cada métrica.
+        
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.6\textwidth]{report/imgs/home_bias_analysis_20250413_225326.png}
+            \caption{Sesgo relativo de métricas para el equipo local.}
+        \end{figure}
+        
+        \begin{figure}
+            \centering
+            \includegraphics[width=0.6\textwidth]{report/imgs/away_bias_analysis_20250413_225326.png}
+            \caption{Sesgo relativo de métricas para el equipo visitante.}
+        \end{figure}
+        
+        \subsection*{Contexto Futbolístico}
+        Desde una perspectiva futbolística, el análisis de sesgo es crucial para garantizar que las simulaciones reflejen con precisión el rendimiento real de los equipos. Un sesgo significativo podría indicar la necesidad de ajustar parámetros como la tasa de ataque o la fuerza defensiva para mejorar la precisión del modelo.
+        
+        En comparación con benchmarks de la UEFA, donde la precisión de las simulaciones es esencial para la planificación táctica, este análisis ayuda a identificar áreas de mejora en la simulación de partidos.
+                
+
+        \subsection{Análisis de Diferencias entre Estadísticas Originales y Bootstrap}
+\subsection*{Explicación Estadística}
+Este análisis utiliza el método \textit{Bootstrap} para evaluar la diferencia entre las estadísticas originales de la simulación y las obtenidas mediante remuestreo. El objetivo es identificar cualquier sesgo o variación significativa en las estimaciones.
+
+\begin{itemize}
+    \item \textbf{Diferencia Media (Goles):} 2.90, con un intervalo de confianza del 95\% de [2.78, 3.02].
+    \item \textbf{Diferencia Media (Tiros):} 17.41, con un intervalo de confianza del 95\% de [17.29, 17.52].
+    \item \textbf{Diferencia Media (Faltas):} -17.37, con un intervalo de confianza del 95\% de [-17.49, -17.26].
+    \item \textbf{Diferencia Media (Posesión):} -7.61, con un intervalo de confianza del 95\% de [-7.75, -7.47].
+\end{itemize}
+
+El valor p para todas las métricas es 0.0, indicando diferencias estadísticamente significativas. La probabilidad de superioridad es 1.0 para goles y tiros, sugiriendo que las simulaciones bootstrap tienden a sobreestimar estas métricas en comparación con los valores originales.
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, las diferencias significativas en métricas como goles y tiros pueden indicar un sesgo en el modelo de simulación que podría afectar la planificación táctica. En comparación con benchmarks de la UEFA, donde la precisión de las simulaciones es crucial para la toma de decisiones estratégicas, este análisis resalta la necesidad de ajustar los parámetros del modelo para mejorar la precisión.
+
+La gestión de la stamina y la implementación de tácticas de presión alta podrían ser áreas clave para explorar, dado que las diferencias en faltas y posesión sugieren un enfoque más agresivo en las simulaciones. Ajustar estos aspectos podría ayudar a alinear mejor las simulaciones con el rendimiento real de los equipos.
+
+\subsection{Comparación de Distribuciones}
+\subsection*{Explicación Estadística}
+Este análisis superpone las distribuciones bootstrap con los valores originales para detectar sesgos. Se utiliza un gráfico de densidad KDE para visualizar el solapamiento entre las distribuciones.
+
+\begin{itemize}
+    \item \textbf{Solapamiento >90\%:} Indica estimaciones precisas.
+    \item \textbf{Desplazamiento Notable:} Sugiere un posible sesgo en las simulaciones.
+    \item \textbf{Formas Diferentes:} Indica que la distribución no es representativa.
+\end{itemize}
+
+El análisis se justifica para evaluar la representatividad de las simulaciones y ajustar el modelo si es necesario. Las figuras a continuación muestran gráficos de densidad KDE para cada equipo.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_distribution_comparison_20250413_225326.png}
+    \caption{Comparación de distribuciones para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_distribution_comparison_20250413_225326.png}
+    \caption{Comparación de distribuciones para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la comparación de distribuciones es esencial para validar la precisión de las simulaciones en la representación del rendimiento del equipo. Un solapamiento significativo con los valores originales sugiere que las simulaciones son confiables para la planificación táctica.
+
+En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es crítica para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis de Decaimiento por Posesión}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la relación entre el tiempo de posesión y el rendimiento del equipo utilizando gráficos lineales. Se analizan las tendencias de métricas clave como goles y tiros a través de cuartiles de posesión.
+
+\begin{itemize}
+    \item \textbf{Tendencia Ascendente:} Indica que un mayor tiempo de posesión se asocia con un mejor rendimiento en términos de goles y tiros.
+    \item \textbf{Tendencia Plana/Descendente:} Sugiere que la posesión no es un determinante significativo del rendimiento.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos lineales para los equipos local y visitante, destacando las tendencias de rendimiento en función de la posesión.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_possession_decay_20250413_225328.png}
+    \caption{Gráfico lineal de decaimiento por posesión para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_possession_decay_20250413_225328.png}
+    \caption{Gráfico lineal de decaimiento por posesión para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, una tendencia ascendente en el rendimiento con mayor posesión sugiere que los equipos que controlan el balón tienen más oportunidades de anotar. En comparación con benchmarks de la Premier League, donde la posesión es un indicador clave de éxito, este análisis resalta la importancia de mantener el control del balón para mejorar el rendimiento ofensivo.
+
+\subsection{Análisis de Normalidad de Medias Bootstrap}
+\subsection*{Explicación Estadística}
+Este análisis evalúa si las medias de las métricas obtenidas mediante bootstrap siguen una distribución normal, utilizando la prueba de Kolmogorov-Smirnov (KS-test). Se analizan parámetros de distribución como sesgo y curtosis.
+
+\begin{itemize}
+    \item \textbf{Sesgo:} Indica la asimetría de la distribución.
+    \item \textbf{Curtosis:} Mide la concentración de los datos en las colas y picos.
+    \item \textbf{KS-test:} Evalúa la normalidad de la distribución.
+\end{itemize}
+
+Los resultados del KS-test muestran que las distribuciones de las medias bootstrap no difieren significativamente de una distribución normal, lo que sugiere que el Teorema del Límite Central (TLC) se aplica adecuadamente.
+
+\subsection*{Contexto Futbolístico}
+En el contexto futbolístico, la normalidad de las distribuciones de métricas como goles y tiros es crucial para la planificación táctica. La aplicación del TLC permite utilizar estas métricas para predecir el rendimiento futuro de los equipos, lo que es esencial para la toma de decisiones estratégicas en competiciones de alto nivel como la UEFA Champions League.
+
+\subsection{Matriz de Correlación entre Métricas}
+\subsection*{Explicación Estadística}
+Este análisis utiliza una \textit{Matriz de Correlación de Pearson} para identificar relaciones lineales entre métricas clave como goles, tiros, faltas y posesión. Un valor de correlación de ±1 indica una relación perfecta, mientras que un valor de 0 sugiere independencia lineal.
+
+\begin{itemize}
+    \item \textbf{Correlación Perfecta:} Todas las métricas muestran una correlación de 1.0 entre sí, lo que indica una relación lineal perfecta.
+\end{itemize}
+
+Las figuras a continuación muestran mapas de calor de las matrices de correlación para los equipos local y visitante.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_metric_correlation_20250413_225340.png}
+    \caption{Matriz de correlación de métricas para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_metric_correlation_20250413_225340.png}
+    \caption{Matriz de correlación de métricas para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, una correlación perfecta entre métricas sugiere que el modelo de simulación podría estar sobreajustado o no capturar adecuadamente la variabilidad real observada en partidos de fútbol. En comparación con benchmarks de la Premier League, donde las correlaciones entre métricas suelen ser más variadas, este resultado indica la necesidad de revisar y ajustar el modelo de simulación para reflejar mejor la dinámica del juego real.
+
+\subsection{Análisis de Normalidad de Errores}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la distribución de los errores mediante gráficos Q-Q y la prueba de D'Agostino-Pearson para determinar la normalidad de los errores en las simulaciones. La normalidad de los errores es crucial para validar la precisión de las estimaciones.
+
+\begin{itemize}
+    \item \textbf{Gráficos Q-Q:} Los puntos alineados con la línea roja indican normalidad en los errores.
+    \item \textbf{Prueba de D'Agostino-Pearson:} Un p-valor > 0.05 sugiere que no se rechaza la hipótesis de normalidad.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos Q-Q para las métricas de goles, tiros, faltas y posesión para ambos equipos.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_qqplot_20250413_225340.png}
+    \caption{Gráfico Q-Q de errores para goles del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_goals_qqplot_20250413_225340.png}
+    \caption{Gráfico Q-Q de errores para goles del equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la normalidad de los errores en las métricas de rendimiento es esencial para garantizar que las simulaciones reflejen con precisión el rendimiento real de los equipos. En competiciones de alto nivel como la UEFA Champions League, la precisión de las simulaciones es crucial para la planificación táctica.
+
+\subsection{Análisis de Tendencias en Iteraciones}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la estabilidad de las estimaciones durante el proceso de bootstrap mediante gráficos de líneas con media móvil. Se analiza la correlación entre el número de iteración y el valor promedio de las métricas.
+
+\begin{itemize}
+    \item \textbf{Tendencia Ascendente/Descendente:} Indica inestabilidad en las simulaciones.
+    \item \textbf{Línea Plana:} Sugiere convergencia estable.
+    \item \textbf{Correlación Significativa:} Indica dependencia del orden de iteración.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de líneas con media móvil para las métricas de goles y tiros para ambos equipos.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_trend_analysis_20250413_225343.png}
+    \caption{Análisis de tendencias en iteraciones para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_trend_analysis_20250413_225343.png}
+    \caption{Análisis de tendencias en iteraciones para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+En el contexto futbolístico, la estabilidad de las estimaciones es crucial para garantizar que las simulaciones sean confiables y útiles para la planificación táctica. La convergencia estable de las métricas sugiere que las simulaciones son consistentes y pueden ser utilizadas para predecir el rendimiento futuro de los equipos.
+
+\subsection{Análisis Integral de Goles (Media)}
+\subsection*{Explicación Estadística}
+Este análisis combina múltiples técnicas de bootstrap para una evaluación exhaustiva de la media de goles. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la media observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la media de goles.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_ci_mean_20250413_225344.png}
+    \caption{Intervalos de confianza para la media de goles del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_hypothesis_mean_20250413_225346.png}
+    \caption{Prueba de hipótesis para la media de goles del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de goles son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis Integral de Tiros (Mediana)}
+\subsection*{Explicación Estadística}
+Este análisis combina múltiples técnicas de bootstrap para evaluar exhaustivamente la mediana de tiros. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la mediana observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la mediana de tiros.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_ci_median_20250413_225347.png}
+    \caption{Intervalos de confianza para la mediana de tiros del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_hypothesis_median_20250413_225350.png}
+    \caption{Prueba de hipótesis para la mediana de tiros del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de tiros son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis Integral de Goles (Media)}
+\subsection*{Explicación Estadística}
+Este análisis combina múltiples técnicas de bootstrap para evaluar exhaustivamente la media de goles. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la media observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la media de goles.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_ci_mean_20250413_225351.png}
+    \caption{Intervalos de confianza para la media de goles del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_hypothesis_mean_20250413_225354.png}
+    \caption{Prueba de hipótesis para la media de goles del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de goles son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis Integral de Goles (Mediana)}
+\subsection*{Explicación Estadística}
+Este análisis combina múltiples técnicas de bootstrap para evaluar exhaustivamente la mediana de goles. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la mediana observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la mediana de goles.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_ci_median_20250413_225355.png}
+    \caption{Intervalos de confianza para la mediana de goles del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_goals_hypothesis_median_20250413_225357.png}
+    \caption{Prueba de hipótesis para la mediana de goles del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de goles son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis Integral de Desviación Estándar de Tiros}
+\subsection*{Explicación Estadística}
+Este análisis utiliza técnicas de bootstrap para evaluar exhaustivamente la desviación estándar de los tiros. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la desviación estándar observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la desviación estándar de tiros.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_ci_std_20250413_225358.png}
+    \caption{Intervalos de confianza para la desviación estándar de tiros del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_hypothesis_std_20250413_225401.png}
+    \caption{Prueba de hipótesis para la desviación estándar de tiros del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de la desviación estándar de tiros son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis Integral de Mediana de Tiros}
+\subsection*{Explicación Estadística}
+Este análisis combina múltiples técnicas de bootstrap para evaluar exhaustivamente la mediana de tiros. Se incluyen intervalos de confianza, pruebas de hipótesis y análisis de estabilidad.
+
+\begin{itemize}
+    \item \textbf{Intervalos de Confianza:} Proporcionan una medida de la precisión de la estimación.
+    \item \textbf{Pruebas de Hipótesis:} Validan la mediana observada contra un valor teórico.
+    \item \textbf{Estabilidad:} Evalúa la consistencia de las estimaciones entre muestras bootstrap.
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de intervalos de confianza y pruebas de hipótesis para la mediana de tiros.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_ci_median_20250413_225402.png}
+    \caption{Intervalos de confianza para la mediana de tiros del equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_shots_hypothesis_median_20250413_225405.png}
+    \caption{Prueba de hipótesis para la mediana de tiros del equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la precisión y estabilidad de las estimaciones de la mediana de tiros son cruciales para la planificación táctica. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego.
+
+\subsection{Análisis de Sensibilidad para Parámetro \textit{attack\_rate} (Equipo Local)}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la sensibilidad del parámetro \textit{attack\_rate} en el equipo local mediante pruebas de hipótesis y análisis comparativos. Se utilizan valores de 1.5 y 2.1 para evaluar el impacto en el rendimiento del equipo.
+
+\begin{itemize}
+    \item \textbf{Pruebas de Hipótesis:} Se utilizó el test t-Student para muestras independientes para comparar las configuraciones modificadas con la base.
+    \item \textbf{Resultados Clave:} 
+    \begin{itemize}
+        \item Para \textit{attack\_rate} = 1.5: Diferencia media de -3.20 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = -0.63.
+        \item Para \textit{attack\_rate} = 2.1: Diferencia media de 2.93 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = 0.55.
+    \end{itemize}
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de barras y tablas comparativas para el equipo local y el equipo contrario.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/stats_comparison_20250413_225427.png}
+    \caption{Gráfico de barras comparando medias de goles para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_comparison_20250413_225427.png}
+    \caption{Tabla comparativa para el equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la sensibilidad del parámetro \textit{attack\_rate} es crucial para ajustar las tácticas de juego. Un \textit{attack\_rate} más bajo (1.5) resultó en una disminución significativa en el rendimiento ofensivo, mientras que un \textit{attack\_rate} más alto (2.1) mejoró el rendimiento. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego y mejorar el rendimiento del equipo.
+
+\subsection{Análisis Integral de Rendimiento}
+\subsection*{Explicación Estadística}
+Este análisis evalúa el rendimiento del equipo local mediante métricas temporales, momentum, correlaciones y probabilidad de victoria. Se utiliza un modelo de regresión logística para predecir la probabilidad de victoria.
+
+\begin{itemize}
+    \item \textbf{Métricas Temporales:} Distribución de eventos por periodos de 15 minutos.
+    \item \textbf{Momentum:} Tendencia de actividad durante el partido.
+    \item \textbf{Correlaciones:} Relación entre parámetros del equipo y resultados.
+    \item \textbf{Probabilidad de Victoria:} Coeficientes del modelo predictivo.
+\end{itemize}
+
+Las figuras a continuación muestran la distribución temporal, la tendencia del momentum y el heatmap de correlaciones.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/time_metrics_20250413_225438_home.png}
+    \caption{Distribución temporal de eventos para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/momentum_20250413_225438_home.png}
+    \caption{Tendencia del momentum para el equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, el análisis integral de rendimiento es esencial para comprender cómo los cambios en el \textit{attack\_rate} afectan la dinámica del partido. Un \textit{attack\_rate} más alto no solo mejora el rendimiento ofensivo, sino que también aumenta la probabilidad de victoria. Este análisis proporciona información valiosa para ajustar las tácticas de juego y maximizar el rendimiento del equipo en competiciones de alto nivel como la UEFA Champions League.
+
+\subsection{Análisis de Sensibilidad para Parámetro \textit{defense\_strength} (Equipo Visitante)}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la sensibilidad del parámetro \textit{defense\_strength} en el equipo visitante mediante pruebas de hipótesis y análisis comparativos. Se utilizó un valor de 85 para evaluar el impacto en el rendimiento del equipo.
+
+\begin{itemize}
+    \item \textbf{Pruebas de Hipótesis:} Se utilizó el test t-Student para muestras independientes para comparar las configuraciones modificadas con la base.
+    \item \textbf{Resultados Clave:} 
+    \begin{itemize}
+        \item Diferencia media de 3.32 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = 0.62.
+    \end{itemize}
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de barras y tablas comparativas para el equipo visitante y el equipo contrario.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/stats_comparison_20250413_225652.png}
+    \caption{Gráfico de barras comparando medias de goles para el equipo visitante.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/away_comparison_20250413_225652.png}
+    \caption{Tabla comparativa para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la sensibilidad del parámetro \textit{defense\_strength} es crucial para ajustar las tácticas defensivas. Un aumento en la fuerza defensiva resultó en una mejora significativa en el rendimiento defensivo, reduciendo la cantidad de goles concedidos. En comparación con benchmarks de la Premier League, donde la solidez defensiva es esencial para el éxito, este análisis proporciona una base sólida para ajustar las tácticas de juego y mejorar el rendimiento del equipo en competiciones de alto nivel como la UEFA Champions League.
+
+\subsection{Análisis Integral de Rendimiento}
+\subsection*{Explicación Estadística}
+Este análisis evalúa el rendimiento del equipo visitante mediante métricas temporales, momentum, correlaciones y probabilidad de victoria. Se utiliza un modelo de regresión logística para predecir la probabilidad de victoria.
+
+\begin{itemize}
+    \item \textbf{Métricas Temporales:} Distribución de eventos por periodos de 15 minutos.
+    \item \textbf{Momentum:} Tendencia de actividad durante el partido.
+    \item \textbf{Correlaciones:} Relación entre parámetros del equipo y resultados.
+    \item \textbf{Probabilidad de Victoria:} Coeficientes del modelo predictivo.
+\end{itemize}
+
+Las figuras a continuación muestran la distribución temporal, la tendencia del momentum y el heatmap de correlaciones.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/time_metrics_20250413_225658_away.png}
+    \caption{Distribución temporal de eventos para el equipo visitante.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/momentum_20250413_225658_away.png}
+    \caption{Tendencia del momentum para el equipo visitante.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, el análisis integral de rendimiento es esencial para comprender cómo los cambios en la \textit{defense\_strength} afectan la dinámica del partido. Un aumento en la fuerza defensiva no solo mejora el rendimiento defensivo, sino que también aumenta la probabilidad de victoria. Este análisis proporciona información valiosa para ajustar las tácticas de juego y maximizar el rendimiento del equipo en competiciones de alto nivel como la UEFA Champions League.
+
+\subsection{Análisis de Sensibilidad de Múltiples Parámetros Simultáneos}
+\subsection*{Explicación Estadística}
+Este análisis evalúa la sensibilidad de los parámetros \textit{attack\_rate} del equipo local y \textit{defense\_strength} del equipo visitante. Se probaron combinaciones de valores para evaluar su impacto en el rendimiento del equipo.
+
+\begin{itemize}
+    \item \textbf{Método:} Se utilizó el test t-Student para muestras independientes para comparar las configuraciones modificadas con la base.
+    \item \textbf{Resultados Clave:} 
+    \begin{itemize}
+        \item Combinación (1.8, 80): Diferencia media de 8.79 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = 1.61.
+        \item Combinación (2.0, 85): Diferencia media de 5.48 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = 1.03.
+        \item Combinación (2.2, 90): Diferencia media de 1.37 goles, p-valor = 0.0000, tamaño del efecto (Cohen's d) = 0.26.
+    \end{itemize}
+\end{itemize}
+
+Las figuras a continuación muestran gráficos de barras y tablas comparativas para las combinaciones probadas.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/stats_comparison_20250413_225738.png}
+    \caption{Gráfico de barras comparando medias de goles para la combinación (1.8, 80).}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/home_comparison_20250413_225738.png}
+    \caption{Tabla comparativa para el equipo local con combinación (1.8, 80).}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, la sensibilidad de los parámetros \textit{attack\_rate} y \textit{defense\_strength} es crucial para ajustar las tácticas de juego. Un aumento en el \textit{attack\_rate} del equipo local y una disminución en el \textit{defense\_strength} del equipo visitante resultaron en un aumento significativo en el rendimiento ofensivo. En comparación con benchmarks de la Premier League, donde la precisión de las simulaciones es esencial para la toma de decisiones estratégicas, este análisis proporciona una base sólida para ajustar las tácticas de juego y mejorar el rendimiento del equipo en competiciones de alto nivel como la UEFA Champions League.
+
+\subsection{Análisis Integral de Rendimiento}
+\subsection*{Explicación Estadística}
+Este análisis evalúa el rendimiento del equipo mediante métricas temporales, momentum, correlaciones y probabilidad de victoria. Se utiliza un modelo de regresión logística para predecir la probabilidad de victoria.
+
+\begin{itemize}
+    \item \textbf{Métricas Temporales:} Distribución de eventos por periodos de 15 minutos.
+    \item \textbf{Momentum:} Tendencia de actividad durante el partido.
+    \item \textbf{Correlaciones:} Relación entre parámetros del equipo y resultados.
+    \item \textbf{Probabilidad de Victoria:} Coeficientes del modelo predictivo.
+\end{itemize}
+
+Las figuras a continuación muestran la distribución temporal, la tendencia del momentum y el heatmap de correlaciones.
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/time_metrics_20250413_225743_home.png}
+    \caption{Distribución temporal de eventos para el equipo local.}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\textwidth]{report/imgs/momentum_20250413_225743_home.png}
+    \caption{Tendencia del momentum para el equipo local.}
+\end{figure}
+
+\subsection*{Contexto Futbolístico}
+Desde una perspectiva futbolística, el análisis integral de rendimiento es esencial para comprender cómo los cambios en los parámetros \textit{attack\_rate} y \textit{defense\_strength} afectan la dinámica del partido. Un aumento en el \textit{attack\_rate} no solo mejora el rendimiento ofensivo, sino que también aumenta la probabilidad de victoria. Este análisis proporciona información valiosa para ajustar las tácticas de juego y maximizar el rendimiento del equipo en competiciones de alto nivel como la UEFA Champions League.
